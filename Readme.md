@@ -1,3 +1,3 @@
-This Portfolio is Uncomplete and Work in Progress
+This portfolio is incomplete and a work in progress.
 
 Demo link: https://ayodev.netlify.app/
