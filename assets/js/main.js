@@ -135,10 +135,10 @@ let menu = document.querySelector(".menu");
 mobileMenuToggle.addEventListener("click", (e) => {
   if (getComputedStyle(menu)["display"] == "none") {
     menu.style.display = "Grid";
-    e.currentTarget.classList.replace("uil-apps", "uil-multiply");
+    e.currentTarget.classList.replace("uil-bars", "uil-multiply");
   } else {
     menu.style.display = "none";
-    e.currentTarget.classList.replace("uil-multiply", "uil-apps");
+    e.currentTarget.classList.replace("uil-multiply", "uil-bars");
   }
 });
 
