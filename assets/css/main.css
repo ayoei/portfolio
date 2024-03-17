@@ -63,6 +63,7 @@ body.dark_theme {
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
   --soon-footer-back-color: var(--first-color);
   --soon-footer-color: #fff;
+  --skill-container-color: #6d59de1c;
 }
 
 .btn {
@@ -301,9 +302,14 @@ body.dark_theme {
   font-size: var(--h2-font-size);
   margin-left: 10px;
 }
-#home .home_content .hero_img_container svg {
-  width: 300px;
+
+.icoo {
+  font-size: var(--h2-font-size);
+  margin-left: 10px;
 }
+
+/* #home .home_content .hero_img_container svg {
+  width: 300px; }*/
 #home .home_content .hero_img_container svg path {
   fill: var(--first-color);
 }
@@ -379,7 +385,14 @@ body.dark_theme {
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 20px;
+  grid-gap: 26px;
+}
+#skills .skills_content .skill_container {
+  border-radius: 12px;
+  box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1);
+  /* box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 8px 10px -6px rgba(0,0,0,0.1); */
+  padding: 16px;
+  background-color: var(--skill-container-color);
 }
 #skills .skills_content .skill_container > p {
   font-size: var(--h3-font-size);
